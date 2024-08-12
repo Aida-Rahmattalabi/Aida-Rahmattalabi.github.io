@@ -2,207 +2,208 @@
 <html lang="en">
 
 <head>
-  <title>Name</title>
+  <title>Aida Rahmattalabi</title>
   <meta charset="utf-8">
-  <meta name="google-site-verification" content="Wq6I0i2SkxhLgzaEYWYOC7EbJMJCHDRvQIxniBtXImk" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <style>
     body {
-      font-family: 'Oswald', sans-serif;
-      font-size: 16px;
-      line-height: 1.6;
+      font-family: 'Raleway', sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+      padding-top: 60px;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: #343a40;
     }
 
     .navbar-brand {
-      font-size: 24px;
+      color: #fff;
       font-weight: bold;
     }
 
-    .container {
-      margin-top: 20px;
+    .navbar-nav .nav-link {
+      color: #fff;
+      padding: 10px 15px;
+    }
+
+    .navbar-nav .nav-link:hover {
+      background-color: #495057;
+      border-radius: 5px;
+    }
+
+    /* Section Styling */
+    section {
+      padding: 60px 0;
     }
 
     h2 {
-      margin-top: 50px;
-      font-size: 28px;
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 40px;
     }
 
-    .author__avatar img {
-      width: 100%;
-      max-width: 250px;
-      border: 8px solid #000;
+    p, ul {
+      font-size: 18px;
+      line-height: 1.6;
     }
 
-    .sidebar-links dd {
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
       margin-bottom: 10px;
     }
 
-    .sidebar-links a {
-      text-decoration: none;
-      font-size: 18px;
+    /* Projects */
+    .project h3 {
+      font-size: 24px;
+      margin-top: 20px;
+      font-weight: bold;
     }
 
-    .paper {
+    .project p {
       margin-bottom: 20px;
     }
 
-    .col-md-4 .col-md-4 {
-      padding: 0;
+    /* Footer */
+    footer {
+      background-color: #343a40;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
     }
 
-    @media (max-width: 768px) {
-      .col-md-8 {
-        height: auto;
-      }
+    footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 
 <body>
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="index.html">Name</a>
-      </div>
-      <div class="collapse navbar-collapse" id="navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#publications">Publications</a></li>
+      <a class="navbar-brand" href="#">Name</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Page Content -->
-  <div class="container">
+  <!-- About Me Section -->
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <p>
+      I am a 5th-year PhD student in Computer Science at the
+      <a href="https://www.usc.edu/" target="_blank">University of Southern California</a>
+      working under the supervision of
+      <a href="https://sites.google.com/usc.edu/phebevayanos/" target="_blank">Dr. Phebe Vayanos</a> and
+      <a href="https://teamcore.seas.harvard.edu/people/milind-tambe" target="_blank">Dr. Milind Tambe</a>.
+      I am also affiliated with the
+      <a href="https://www.cais.usc.edu/" target="_blank">CAIS Center for Artificial Intelligence in Society</a>.
+      My research focuses on optimization and algorithmic fairness, with direct applications in public health and AI for Social Good. Prior to joining USC, I completed my master's degree under the supervision of
+      <a href="http://web.engr.oregonstate.edu/~ktumer/" target="_blank">Dr. Kagan Tumer</a> at the
+      <a href="https://research.engr.oregonstate.edu/aadi/" target="_blank">Autonomous Agents and Distributed Intelligence (AADI) lab</a>, where I worked on multi-agent reinforcement learning for tightly-coupled domains.
+    </p>
+  </section>
 
-    <div class="row">
+  <!-- News Section -->
+  <section id="news" class="container">
+    <h2>News</h2>
+    <ul>
+      <li>I joined SonyAI as an AI Ethics Research Intern to work on causal fairness in decision-making systems.</li>
+      <li>I received the Grace Hopper Celebration Student Scholarship to attend GHC2021.</li>
+      <li>I will join RegLab, Stanford, as a summer fellow, working on data-driven approaches for public health improvement.</li>
+      <li>I will be presenting our work on "Fair Influence Maximization: A Welfare Optimization Approach" during the AAAI21 poster session on Friday, Feb 5.</li>
+      <li>Our paper titled "Fair Influence Maximization: A Welfare Optimization Approach" is accepted to AAAI2021!</li>
+      <li>I received the Women in Operations Research Bayer Scholarship at INFORMS 2020!</li>
+      <li>I will be presenting our recent work on welfare optimization approaches for fairness in influence maximization at INFORMS Annual Meeting 2020.</li>
+      <li>I am co-organizing a session on "Fairness in Machine Learning and Optimization" at INFORMS Annual Meeting 2020.</li>
+      <li>We are holding a STEM outreach program with <a href="https://www.codeintheschools.org/" target="_blank">Code in the Schools</a> and <a href="https://www.stemweb.org/" target="_blank">STEM Academy of Hollywood</a> to raise high school students' interest in pursuing STEM fields. Check out more details <a href="https://sites.google.com/view/explor-event/home" target="_blank">here</a>.</li>
+      <li>We received the <a href="https://connect.informs.org/diversity/ambassador-program" target="_blank">INFORMS Diversity, Equity and Inclusion Ambassadors Award</a>!</li>
+      <li>I am co-organizing the <a href="https://crcs.seas.harvard.edu/event/workshop_ai_society" target="_blank">AI for Social Impact workshop</a> at Harvard University.</li>
+      <li>Our paper on fairness in the robust graph covering problem is accepted at NeurIPS 2019.</li>
+    </ul>
+  </section>
 
-      <!-- Main Content -->
-      <div class="col-md-8">
-
-        <!-- About Me -->
-        <h2>About Me</h2>
-        <p>
-          I am a 5th-year PhD student in Computer Science at the
-          <a href="https://www.usc.edu/" target="_blank">University of Southern California</a>
-          working under the supervision of
-          <a href="https://sites.google.com/usc.edu/phebevayanos/" target="_blank">Dr. Phebe Vayanos</a> and
-          <a href="https://teamcore.seas.harvard.edu/people/milind-tambe" target="_blank">Dr. Milind Tambe</a>.
-          I am also affiliated with the
-          <a href="https://www.cais.usc.edu/" target="_blank">CAIS Center for Artificial Intelligence in Society</a>.
-          My research focuses on optimization and algorithmic fairness, with direct applications in public health and AI for Social Good. Prior to joining USC, I completed my master's degree under the supervision of
-          <a href="http://web.engr.oregonstate.edu/~ktumer/" target="_blank">Dr. Kagan Tumer</a> at the
-          <a href="https://research.engr.oregonstate.edu/aadi/" target="_blank">Autonomous Agents and Distributed Intelligence (AADI) lab</a>, where I worked on multi-agent reinforcement learning for tightly-coupled domains.
-        </p>
-
-        <!-- News -->
-        <h2>News</h2>
-        <ul>
-          <li>I joined SonyAI as an AI Ethics Research Intern to work on causal fairness in decision-making systems.</li>
-          <li>I received the Grace Hopper Celebration Student Scholarship to attend GHC2021.</li>
-          <li>I will join RegLab, Stanford, as a summer fellow, working on data-driven approaches for public health improvement.</li>
-          <li>I will be presenting our work on "Fair Influence Maximization: A Welfare Optimization Approach" during the AAAI21 poster session on Friday, Feb 5.</li>
-          <li>Our paper titled "Fair Influence Maximization: A Welfare Optimization Approach" is accepted to AAAI2021!</li>
-          <li>I received the Women in Operations Research Bayer Scholarship at INFORMS 2020!</li>
-          <li>I will be presenting our recent work on welfare optimization approaches for fairness in influence maximization at INFORMS Annual Meeting 2020.</li>
-          <li>I am co-organizing a session on "Fairness in Machine Learning and Optimization" at INFORMS Annual Meeting 2020.</li>
-          <li>We are holding a STEM outreach program with <a href="https://www.codeintheschools.org/" target="_blank">Code in the Schools</a> and <a href="https://www.stemweb.org/" target="_blank">STEM Academy of Hollywood</a> to raise high school students' interest in pursuing STEM fields. Check out more details <a href="https://sites.google.com/view/explor-event/home" target="_blank">here</a>.</li>
-          <li>We received the <a href="https://connect.informs.org/diversity/ambassador-program" target="_blank">INFORMS Diversity, Equity and Inclusion Ambassadors Award</a>!</li>
-          <li>I am co-organizing the <a href="https://crcs.seas.harvard.edu/event/workshop_ai_society" target="_blank">AI for Social Impact workshop</a> at Harvard University.</li>
-          <li>Our paper on fairness in the robust graph covering problem is accepted at NeurIPS 2019.</li>
-        </ul>
-
-        <!-- Projects -->
-        <h2 id="projects">Projects</h2>
-        <div class="project">
-          <h3>Learning Fair Housing Allocation Policies among People Experiencing Homelessness</h3>
-          <p>
-            I am working with <a href="https://www.lahsa.org/" target="_blank">LAHSA</a> and <a href="https://www.capolicylab.org/" target="_blank">CPL</a> to assess the risk measurement tool currently used for allocating housing resources. This project focuses on the treatment effect and fairness of the current system using a causal inference framework.
-          </p>
-        </div>
-
-        <div class="project">
-          <h3>Fairness in Graph-based Problems</h3>
-          <p>
-            This work addresses fairness concerns in public health settings, particularly in interventions that rely on social network data. We explore the impact of individuals' positions within social networks on the benefits they receive from these interventions and propose solutions from Operations Research and Welfare Economics to address these fairness issues.
-          </p>
-        </div>
-
-        <div class="project">
-          <h3>Social Network-based Interventions for Public Health</h3>
-          <p>
-            I have collaborated with social work researchers to develop data-driven approaches that enhance the effectiveness of interventions for substance abuse and suicide prevention. These interventions leverage social influence to spread and reinforce positive behavior.
-          </p>
-        </div>
-
-        <div class="project">
-          <h3>Explanation Systems for Influence Maximization Algorithms</h3>
-          <p>
-            We propose a paradigm for designing explanations for influence maximization (IM) algorithms, addressing the trade-off between explanation accuracy and interpretability. This work aims to increase trust in IM algorithms by making their rationale understandable to users.
-          </p>
-        </div>
-
-        <div class="project">
-          <h3>Credit Assignment for Multi-agent Reinforcement Learning in Tightly Coupled Settings</h3>
-          <p>
-            This work focuses on improving cooperative behavior in multi-agent systems where agents' actions are tightly coupled. I developed a reward function using the concept of counterfactuals to tackle reward shaping in these complex tasks.
-          </p>
-        </div>
-
-        <!-- Publications -->
-        <h2 id="publications">Publications</h2>
-        <h3>Conference Publications and Preprints</h3>
-        <ul>
-          <li class="paper"><a href="https://arxiv.org/abs/2006.07906" target="_blank">Fair Influence Maximization: a Welfare Optimization Approach</a> A. Rahmattalabi<sup>*</sup>, S. Jabbari<sup>*</sup>, H. Lakkaraju, V. Syrgkanis, P. Vayanos, A. Slavkovic, M. Tambe. AAAI 2021</li>
-          <li class="paper"><a href="https://arxiv.org/abs/2004.14695" target="_blank">Influence Maximization with Fairness Constraints: A Welfare Optimization Approach</a> A. Rahmattalabi, S. Jabbari, H. Lakkaraju, V. Syrgkanis, P. Vayanos, A. Slavkovic, M. Tambe. ArXiv 2020</li>
-          <li class="paper"><a href="https://arxiv.org/abs/1910.08484" target="_blank">Robust Graph Covering with Fairness Constraints</a> A. Rahmattalabi, R. Wilder, P. Rice, E. Rice, P. Vayanos, M. Tambe. NeurIPS 2019</li>
-        </ul>
-
-        <!-- Theses -->
-        <h3>Theses</h3>
-        <ul>
-          <li class="paper"><a href="https://ir.library.oregonstate.edu/concern/graduate_thesis_or_dissertations/2n49t483p" target="_blank">Counterfactuals for Credit Assignment in Multi-agent Systems</a> A. Rahmattalabi, M.S. Thesis, Oregon State University, 2017</li>
-        </ul>
-
-      </div>
-
-      <!-- Sidebar -->
-      <div class="col-md-4">
-        <h2>Contact</h2>
-        <p>
-          Name <br>
-          University of Southern California <br>
-          Address <br>
-          Email: <a href="mailto:your-email@example.com">your-email@example.com</a>
-        </p>
-
-        <div class="author__avatar">
-          <img src="path_to_image.jpg" alt="Author's Avatar">
-        </div>
-
-        <h2>Links</h2>
-        <dl class="sidebar-links">
-          <dd><a href="https://scholar.google.com/" target="_blank">Google Scholar</a></dd>
-          <dd><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></dd>
-          <dd><a href="https://github.com/" target="_blank">GitHub</a></dd>
-        </dl>
-      </div>
+  <!-- Projects Section -->
+  <section id="projects" class="container">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Learning Fair Housing Allocation Policies among People Experiencing Homelessness</h3>
+      <p>
+        I am working with <a href="https://www.lahsa.org/" target="_blank">LAHSA</a> and <a href="https://www.capolicylab.org/" target="_blank">CPL</a> to assess the risk measurement tool currently used for allocating housing resources. This project focuses on the treatment effect and fairness of the current system using a causal inference framework.
+      </p>
     </div>
-  </div>
+    <div class="project">
+      <h3>Fairness in Graph-based Problems</h3>
+      <p>
+        This work addresses fairness concerns in public health settings, particularly in interventions that rely on social network data. We explore the impact of individuals' positions within social networks on the benefits they receive from these interventions and propose solutions from Operations Research and Welfare Economics to address these fairness issues.
+      </p>
+    </div>
+    <div class="project">
+      <h3>Social Network-based Interventions for Public Health</h3>
+      <p>
+        I have collaborated with social work researchers to develop data-driven approaches that enhance the effectiveness of interventions for substance abuse and suicide prevention. These interventions leverage social influence to spread and reinforce positive behavior.
+      </p>
+    </div>
+    <div class="project">
+      <h3>Multi-agent Systems for Tightly Coupled Coordination Domains</h3>
+      <p>
+        During my master's, I developed algorithms for multi-agent reinforcement learning with applications in tightly coupled domains such as multi-robot systems and autonomous vehicle coordination. These algorithms were evaluated using testbeds such as RoboCup Soccer.
+      </p>
+    </div>
+  </section>
+
+  <!-- Publications Section -->
+  <section id="publications" class="container">
+    <h2>Publications</h2>
+    <ul>
+      <li class="paper"><a href="https://arxiv.org/abs/2105.11881" target="_blank">Fair Algorithms for Learning in Allocation Problems</a> A. Rahmattalabi, A. Singh, M. Gillen, E. Rice, M. Tambe. AI for Social Good Workshop, NeurIPS 2020</li>
+      <li class="paper"><a href="https://arxiv.org/abs/2004.14695" target="_blank">Influence Maximization with Fairness Constraints: A Welfare Optimization Approach</a> A. Rahmattalabi, S. Jabbari, H. Lakkaraju, V. Syrgkanis, P. Vayanos, A. Slavkovic, M. Tambe. AAAI 2021</li>
+      <li class="paper"><a href="https://arxiv.org/abs/2004.14695" target="_blank">Influence Maximization with Fairness Constraints: A Welfare Optimization Approach</a> A. Rahmattalabi, S. Jabbari, H. Lakkaraju, V. Syrgkanis, P. Vayanos, A. Slavkovic, M. Tambe. ArXiv 2020</li>
+      <li class="paper"><a href="https://arxiv.org/abs/1910.08484" target="_blank">Robust Graph Covering with Fairness Constraints</a> A. Rahmattalabi, R. Wilder, P. Rice, E. Rice, P. Vayanos, M. Tambe. NeurIPS 2019</li>
+      <li class="paper"><a href="https://ir.library.oregonstate.edu/concern/graduate_thesis_or_dissertations/2n49t483p" target="_blank">Counterfactuals for Credit Assignment in Multi-agent Systems</a> A. Rahmattalabi, M.S. Thesis, Oregon State University, 2017</li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>
+        Name <br>
+        University of Southern California <br>
+        Email: <a href="mailto:your-email@example.com">your-email@example.com</a>
+      </p>
+      <p>
+        <a href="https://scholar.google.com/" target="_blank">Google Scholar</a> | 
+        <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a> | 
+        <a href="https://github.com/" target="_blank">GitHub</a>
+      </p>
+    </div>
+  </footer>
+
 </body>
 
 </html>
